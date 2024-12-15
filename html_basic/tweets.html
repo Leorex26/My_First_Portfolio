@@ -4,21 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Tweets</title>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </head>
 <body>
+    <!-- Header (Navigation) -->
+    <header>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tweets.html">Tweets</a></li>
+        </ul>
+    </header>
 
-    <h1>My Tweets</h1>
+    <!-- Main Content -->
+    <main>
+        <article>
+            <h1>Check Out My Tweets!</h1>
 
-    <p>Here’s one of my favorite tweets! You can follow me on Twitter for more updates.</p>
+            <!-- Embedded Tweet -->
+            <blockquote class="twitter-tweet">
+                <p lang="en" dir="ltr">This is an example tweet embedded on the webpage! <a href="https://twitter.com/username/status/TWEET_ID">https://twitter.com/username/status/TWEET_ID</a></p>&mdash; Your Name (@username) <a href="https://twitter.com/username/status/TWEET_ID">December 14, 2024</a>
+            </blockquote>
 
-    <!-- Embed a Tweet -->
-    <blockquote class="twitter-tweet">
-        <p lang="en" dir="ltr">This is an example tweet that you can embed in your HTML! <a href="https://twitter.com/elonmusk/status/1598283493805921280">November 30, 2022</a></p>
-    </blockquote>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <!-- Link Back to Index Page -->
+            <p>Want to go back to the homepage? <a href="index.html">Click here to visit the homepage.</a></p>
+        </article>
 
-    <!-- Link back to index.html -->
-    <p><a href="index.html">Back to homepage</a></p>
+        <aside>
+            <p>placeholder to add comment thread later</p>
+        </aside>
+    </main>
 
+    <!-- Footer -->
+    <footer>
+        <p>Made by Effiong Ephraim - <a href="https://www.example.com" target='_blank'>here</a></p>
+    </footer>
 </body>
 </html>
